@@ -9,40 +9,40 @@ body{
     font-size: 16px;
 }
 /* box 1 */
-.box1{
+.box-1{
     height:40vh; 
     width: 100%;
     padding: 30px 25px 0px 25px;
     background-color: snow;   
 }
-.box1 h1{
+.box-1 h1{
     color: hsl(179, 62%, 43%);
 margin-bottom: 20px;
 font-size:2rem;
 }
-.box1 h2{
+.box-1 h2{
     margin-bottom:20px;
     font-size:1.2rem;
     color: hsla(71, 73%, 54%, 0.856);
 
 }
 
-.box1 p{
+.box-1 p{
     color: rgb(179,179,179);
 }
 
 /* box2 */
-.box2{
+.box-2{
     height:30vh;
     width: 100%;
     padding: 20px;
     background-color: hsl(179, 62%, 43%);
 }
-.box2 h2{
+.box-2 h2{
     color: white;
     margin-bottom: 20px;
 }
-.box2 p{
+.box-2 p{
     color: hsla(203, 44%, 93%, 0.71);
     margin-bottom: 15px;
 }
@@ -52,27 +52,27 @@ font-size:2rem;
     vertical-align: middle;
     margin-right: 5px
 }
-.box2:nth-child(3){
+.box-2:nth-child(3){
     background-color: whitesmoke;
 }
-.box2 button{
+.box-2 button{
     background-color: hsla(71, 73%, 54%, 0.856);
 width: 230px;
 font-size: 1.1rem;
 color: snow;
 padding:7px
 }
-.box3{
+.box-3{
     height:30vh;
     width: 100%;
     padding: 20px;
     background-color: mediumaquamarine;
 }
- .box3 h2{
+ .box-3 h2{
     color:white; 
     margin-bottom: 20px;
  }
 
-.box3 p{
+.box-3 p{
     color:rgb(224, 216, 216);
 } 
