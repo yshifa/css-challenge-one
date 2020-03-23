@@ -1,78 +1,139 @@
-*{
-    margin: 0;
-    padding: 0 ;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  font-size: 16px;
+  font-family: "Karla", sans-serif;
+  margin: 0 auto;
+  width: 100%;
 }
 
-body{
-    font-family: "karla",sens-serif;
-    font-size: 16px;
+/* join our community section */
+.join-our-community {
+  height: 40vh;
+  width: 100%;
+  padding: 30px 25px 0px 25px;
+  background-color: snow;
 }
-/* box 1 */
-.box-1{
-    height:40vh; 
-    width: 100%;
-    padding: 30px 25px 0px 25px;
-    background-color: snow;   
+.join-our-community h1 {
+  color: hsl(179, 62%, 43%);
+  margin-bottom: 15px;
+  font-size: 1.6rem;
 }
-.box-1 h1{
-    color: hsl(179, 62%, 43%);
-margin-bottom: 20px;
-font-size:2rem;
+.join-our-community h2 {
+  color: hsla(71, 73%, 54%, 0.856);
+  font-size: 1.2rem;
+  margin-bottom: 15px;
 }
-.box-1 h2{
-    margin-bottom:20px;
-    font-size:1.2rem;
-    color: hsla(71, 73%, 54%, 0.856);
-
+.join-our-community p {
+  color: rgb(179, 179, 179);
 }
 
-.box-1 p{
-    color: rgb(179,179,179);
+/* pricing section */
+.pricing {
+  height: 30vh;
+  width: 100%;
+  background-color: hsl(179, 62%, 43%);
+  padding: 20px;
+}
+.pricing h2 {
+  color: white;
+  margin-bottom: 20px;
+}
+.pricing p {
+  color: hsla(203, 44%, 93%, 0.71);
+  margin-bottom: 10px;
+}
+.price {
+  color: white;
+  font-size: 1.6rem;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.pricing:nth-child(3) {
+  background-color: whitesmoke;
 }
 
-/* box2 */
-.box-2{
-    height:30vh;
-    width: 100%;
-    padding: 20px;
-    background-color: hsl(179, 62%, 43%);
+.sign-up {
+  background-color: hsl(71, 73%, 54%);
+  padding: 10px;
+  width: 220px;
+  /* margin-left: 10px; */
+  color: white;
+  font-size: 1.2rem;
 }
-.box-2 h2{
-    color: white;
-    margin-bottom: 20px;
-}
-.box-2 p{
-    color: hsla(203, 44%, 93%, 0.71);
-    margin-bottom: 15px;
-}
-.price{
-    color: white;
-    font-size:2rem;
-    vertical-align: middle;
-    margin-right: 5px
-}
-.box-2:nth-child(3){
-    background-color: whitesmoke;
-}
-.box-2 button{
-    background-color: hsla(71, 73%, 54%, 0.856);
-width: 230px;
-font-size: 1.1rem;
-color: snow;
-padding:7px
-}
-.box-3{
-    height:30vh;
-    width: 100%;
-    padding: 20px;
-    background-color: mediumaquamarine;
-}
- .box-3 h2{
-    color:white; 
-    margin-bottom: 20px;
- }
 
-.box-3 p{
-    color:rgb(224, 216, 216);
-} 
+/* why us section */
+.why-us {
+  height: 30vh;
+  width: 100%;
+  padding: 15px;
+  background-color: rgba(27, 183, 189, 0.6);
+}
+.why-us h2 {
+  color: white;
+  margin-bottom: 15px;
+}
+.why-us p {
+  color: white;
+}
+
+@media (min-width: 601px) {
+  .pricing {
+    width: 50%;
+    float: left;
+    height: 50vh;
+    font-size: 1.5rem;
+  }
+  .why-us {
+    width: 50%;
+    float: left;
+    height: 50vh;
+    font-size: 1.5rem;
+  }
+  .join-our-community {
+    height: 50vh;
+    font-size: 1.7rem;
+  }
+}
+@media (min-width: 760px) {
+  .pricing {
+    width: 50%;
+    float: left;
+    height: 50vh;
+  }
+  .why-us {
+    width: 50%;
+    float: left;
+    height: 50vh;
+  }
+  .join-our-community {
+    height: 50vh;
+  }
+
+  .join-our-community h1 {
+    font-size: 3rem;
+  }
+  .join-our-community h2 {
+    font-size: 1.9rem;
+  }
+  .join-our-community p {
+    font-size: 1.6rem;
+  }
+}
+@media (min-width: 1024px) {
+  .join-our-community h1 h2 p {
+    margin: 1rem;
+  }
+  .sign-up {
+    margin: 1.5rem;
+  }
+  .pricing h2 p {
+    margin: 1rem;
+  }
+  .why-us p {
+    margin: 0.5rem;
+  }
+}
